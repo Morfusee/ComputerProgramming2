@@ -31,7 +31,7 @@ public class ComputerProgramming2_LabWork2 {
         //Password input 
         String password = "Crisostomo"; // userInput.nextLine();
 
-        //Show if login is successful or not
+        //Show if login is successful or not.
         String loginNotification = "User credentials incorrect.";
         
         System.out.println(JsonFileHandler.getEmployeeInformationJSON("employeeNum", username));
